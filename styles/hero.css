@@ -7,6 +7,9 @@
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
+    border: 2px solid var(--clr-indigo);
+    object-fit: cover;
+    object-position: center;
     mix-blend-mode: lighten;
     margin: -1.75rem 0 1rem;
 }
