@@ -365,7 +365,7 @@ footer {
     
 }
 /* 2xl */
-@media (min-width: 1536px) {
+/* @media (min-width: 1536px) {
     .container {
         max-width: 1536px;
     }
@@ -403,4 +403,4 @@ footer {
     h2 {
         font-size: 2rem;
     }
-}
+} */

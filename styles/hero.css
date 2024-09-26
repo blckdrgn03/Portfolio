@@ -229,7 +229,7 @@
     }
 }
 /* 2xl */
-@media (min-width: 1536px) {
+/* @media (min-width: 1536px) {
     .hero-job {
         font-size: 1.75rem;
     }
@@ -259,4 +259,4 @@
         width: 24rem;
         height: 24rem;
     }
-}
+} */

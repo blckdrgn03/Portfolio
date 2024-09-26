@@ -137,11 +137,11 @@ hr {
     }  
 }
 /* 2xl */
-@media (min-width: 1536px) {
+/* @media (min-width: 1536px) {
     .big-img {
         width: 32rem;
     }
     .about-techs li {
         padding-bottom: 0.75rem;
     }
-}
+} */
