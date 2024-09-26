@@ -355,6 +355,9 @@ footer {
     body {
         font-size: 1rem;
     }
+    .header {
+        margin-top: 3rem;
+    }
     .header a {
         font-size: 0.9rem;
     }
