@@ -12,7 +12,9 @@
     object-position: center;
     mix-blend-mode: lighten;
     margin: -1.75rem 0 1rem;
+    background-color: var(--clr-dark);
 }
+
 
 
 .hero-name {
