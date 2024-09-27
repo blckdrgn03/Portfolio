@@ -7,7 +7,7 @@ import '../styles/contact.css'
 let incrementalNums = document.querySelectorAll(".incnum");
 incrementalNums.forEach((e) => {
     let finalNum = Number(e.dataset.num);
-    let time = 5000 / finalNum;
+    let time = 4000 / finalNum;
     
     let intKey = setInterval(() => {
         if(Number(e.innerText) + 1 <= finalNum) {
