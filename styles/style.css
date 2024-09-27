@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 :root {
-    --clr-light: hsl(235, 100%, 95%); 
+    --clr-light: hsl(0, 0%, 100%); 
     --clr-dark: hsl(215, 74%, 4%);
     --clr-slate400: #94abb8;
     --clr-slate600: #475a69;
     --clr-slate800: #1e2f3b;
-    --clr-indigo: hsl(198, 93%, 55%);
+    --clr-indigo: #22b7f7;
     --clr-indigo-2: hsl(198, 93%, 55%);
     --clr-indigo-trnsp: #38bff809;
     --clr-trnsp: #94abb800;
@@ -31,7 +31,64 @@
 html {
     scroll-behavior: smooth;
 }
+.blured-object {
+    width: 13rem;
+    height: 13rem;
+    position: absolute;
+    background-color: #22b7f7c4;
+    border-radius: 222rem;
+    z-index: -2;
+    filter: blur(12rem);
+    top: 10rem;
+    right: 16rem;
+}
 
+.blured-object2 {
+    position: absolute;
+    width: 35rem;
+    height: 35rem;
+    background-color: var(--clr-slate800);
+    filter: blur(7rem);
+    border-radius: 20rem;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.blured-object3 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--clr-slate600);
+    filter: blur(6rem);
+    border-radius: 10rem;
+    z-index: -2;
+    top: 35rem;
+    left: 5rem;
+    /* transform: translate(-50%, -50%); */
+}
+.blured-object4 {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--clr-indigo);
+    filter: blur(19rem);
+    border-radius: 10rem;
+    z-index: -2;
+    top: 75rem;
+    left: 10rem;
+}
+.blured-object5 {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--clr-indigo);
+    filter: blur(9.7rem);
+    border-radius: 10rem;
+    z-index: -2;
+    top: 50rem;
+    left: 52rem;
+}
 body {
     color: var(--clr-slate600);
     background-color: var(--clr-dark);
@@ -40,7 +97,7 @@ body {
     font-size: 0.9rem;
     /* overflow-x: hidden; */
     scroll-behavior: smooth;
-    
+    position: relative;
 }
 
 
@@ -52,6 +109,8 @@ canvas {
     display: block;
     max-width: 100%;
     user-select: none;
+    object-fit: cover;
+    object-position: center;
 }
 svg {
     width: 24px;
@@ -112,6 +171,7 @@ h2 {
     font-weight: 600;
     text-decoration: none;
     font-size: 0.5rem;
+    
     transition: all 0.3s;
     
 }
@@ -263,7 +323,7 @@ footer {
     }
 
     .header__line {
-        border-right: 1px solid var(--clr-slate600);
+        border-right: 1px solid var(--clr-slate400);
         padding-top: 1.5rem;
     }
     .header__button {
@@ -272,7 +332,7 @@ footer {
         border: none;
         width: 1.25rem;
         height: 1.25rem;
-        fill: var(--clr-slate600);
+        fill: var(--clr-slate400);
         margin: 0 2rem;
     }
     .header__button:hover {
@@ -288,7 +348,7 @@ footer {
     }
     .header a {
         font-size: 0.825rem;
-        color: var(--clr-slate600);
+        color: var(--clr-slate400);
         margin: 0 2rem 0 0;
     }
 }

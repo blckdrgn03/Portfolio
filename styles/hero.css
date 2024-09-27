@@ -7,7 +7,6 @@
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
-    border: 2px solid var(--clr-indigo);
     object-fit: cover;
     object-position: center;
     margin: -1.75rem 0 1rem;
@@ -15,21 +14,22 @@
 }
 
 
-
+/* .blue {
+    color: var(--clr-indigo);
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.5), 0 0 3px rgba(56, 189, 248, 0.5);
+} */
 .hero-name {
     font-size: 2rem;
     text-align: center;
     font-weight: 600;
     margin-bottom: 1rem;
     color: var(--clr-light);
+    text-shadow: none;
 }
-.blue {
-    color: var(--clr-indigo);
-    text-shadow: 0 0 10px rgba(56, 189, 248, 0.5), 0 0 3px rgba(56, 189, 248, 0.5);
-}
+
 .hero-job {
     text-align: center;
-    color: var(--clr-slate400);
+    color: var(--clr-slate600);
     font-size: 1rem;
     font-weight: 500;
     margin: unset;
@@ -80,7 +80,8 @@
 }
 .small {
     font-weight: 500;
-    color: var(--clr-slate600);
+    padding-top: 4px;
+    color: var(--clr-slate400);
     text-align: left;
     padding-left: 0.5rem;
     line-height: 1.1rem;
