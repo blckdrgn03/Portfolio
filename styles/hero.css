@@ -3,21 +3,23 @@
     flex-direction: column;
     align-items: center;
 }
+
 .hero-pic {
     border-radius: 50%;
     width: 10rem;
-    height: 10rem;
-    object-fit: cover;
+    height: 10rem;object-fit: cover;
     object-position: center;
+    position: relative;
     margin: -1.75rem 0 1rem;
     background-color: var(--clr-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-/* .blue {
-    color: var(--clr-indigo);
-    text-shadow: 0 0 10px rgba(56, 189, 248, 0.5), 0 0 3px rgba(56, 189, 248, 0.5);
-} */
+
+
 .hero-name {
     font-size: 2rem;
     text-align: center;

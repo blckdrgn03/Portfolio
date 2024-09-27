@@ -34,7 +34,7 @@ html {
 .blured-object {
     width: 13rem;
     height: 13rem;
-    position: absolute;
+    position: fixed;
     background-color: #22b7f7c4;
     border-radius: 222rem;
     z-index: -2;
@@ -44,7 +44,7 @@ html {
 }
 
 .blured-object2 {
-    position: absolute;
+    position: fixed;
     width: 35rem;
     height: 35rem;
     background-color: var(--clr-slate800);
@@ -56,7 +56,7 @@ html {
     transform: translate(-50%, -50%);
 }
 .blured-object3 {
-    position: absolute;
+    position: fixed;
     width: 10rem;
     height: 10rem;
     background-color: var(--clr-slate600);
@@ -68,7 +68,7 @@ html {
     /* transform: translate(-50%, -50%); */
 }
 .blured-object4 {
-    position: absolute;
+    position: fixed;
     width: 20rem;
     height: 20rem;
     background-color: var(--clr-indigo);
@@ -79,7 +79,7 @@ html {
     left: 10rem;
 }
 .blured-object5 {
-    position: absolute;
+    position: fixed;
     width: 10rem;
     height: 10rem;
     background-color: var(--clr-indigo);
@@ -171,12 +171,14 @@ h2 {
     font-weight: 600;
     text-decoration: none;
     font-size: 0.5rem;
+    padding-bottom: 1px;
     
-    transition: all 0.3s;
+    transition: all 0.4s;
     
 }
 .header a:hover {
     color: var(--clr-indigo);
+    text-shadow: 0 0 3px var(--clr-indigo);
 }
 .container {
     width: 100%;

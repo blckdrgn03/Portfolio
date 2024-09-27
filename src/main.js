@@ -4,6 +4,20 @@ import '../styles/hero.css'
 import '../styles/about.css'
 import '../styles/work.css'
 import '../styles/contact.css'
+let incrementalNums = document.querySelectorAll(".incnum");
+incrementalNums.forEach((e) => {
+    let finalNum = Number(e.dataset.num);
+    let time = 5000 / finalNum;
+    
+    let intKey = setInterval(() => {
+        if(Number(e.innerText) + 1 <= finalNum) {
+            e.innerText++;
+        } else {
+            clearInterval(intKey)
+        }
+    }, time)
+})
+
 
 let body = document.querySelector('body');
 body.onmousemove = (e) => {

@@ -11,10 +11,11 @@
     width: 100%;
     border-radius: 5px;
     aspect-ratio: 7 / 5;
-    border: 1px solid var(--clr-indigo-2);
-    object-fit: cover;
+    /* border: 1px solid var(--clr-indigo-2); */
+    box-shadow: 9px 9x 5px #00000033;
     object-position: center;
 }
+
 a {
     text-decoration: none;
 }

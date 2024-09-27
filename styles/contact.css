@@ -23,7 +23,7 @@ form input, textarea {
     background-color: transparent;
     border: 1px solid transparent;
     border-bottom: 1px solid var(--clr-indigo-2);
-    margin: 0.25rem 0.25rem;
+    margin: 0.25rem 0.5rem;
     padding: 0.5rem 1rem;
     outline: none;
     color: var(--clr-slate400);
@@ -62,7 +62,7 @@ textarea {
     height: 7rem;
 }
 .form button {
-    width: 33%;
+    width: 37%;
     margin-top: 1rem;
     margin-left: auto;
 }
