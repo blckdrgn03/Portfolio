@@ -164,15 +164,16 @@
 /* lg */
 @media (min-width: 1024px) {
     .hero-section {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
+/*         display: flex; */
+/*         flex-direction: row-reverse; */
+/*         justify-content: space-between; */
     }
     .bird {
         margin: 0 2rem 0 0;
     }
     .blue {
         display: block;
+        text-align: center;
     }
     .hero-pic {
         width: 18.5rem;
@@ -185,12 +186,12 @@
     }
     .stats {
         margin-top: 2.5rem;
-        display: flex;
-        justify-content: space-between;
+/*         display: flex;
+        justify-content: space-between; */
     }
     .stats-info-container {
-        width: 41.5%;
-        justify-content: space-between;
+/*         width: 41.5%;
+        justify-content: space-between; */
     }
     .hero-extras {
         display: flex;
@@ -198,14 +199,14 @@
         width: 28rem;
     }
     .hero-details {
-        text-align: left;
+/*         text-align: left; */
         max-width: 55ch;
     }
     .hero-job {
-        text-align: left;
+/*         text-align: left; */
     }
     .hero-name {
-        text-align: left;
+/*         text-align: left; */
     }
     .stats__info h2 {
         font-size: 2.3rem;
