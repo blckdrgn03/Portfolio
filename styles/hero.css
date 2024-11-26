@@ -10,7 +10,7 @@
     height: 10rem;object-fit: cover;
     object-position: center;
     position: relative;
-    margin: -1.75rem 0 1rem;
+    margin: -2rem 0 1rem;
     background-color: var(--clr-dark);
     display: flex;
     justify-content: center;
@@ -194,9 +194,9 @@
         justify-content: space-between; */
     }
     .hero-extras {
-        display: flex;
+/*         display: flex;
         justify-content: space-between;
-        width: 28rem;
+        width: 28rem; */
     }
     .hero-details {
 /*         text-align: left; */
