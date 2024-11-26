@@ -169,16 +169,16 @@
 /*         justify-content: space-between; */
     }
     .bird {
-        margin: 0 2rem 0 0;
+/*         margin: 0 2rem 0 0; */
     }
     .blue {
-        display: block;
+/*         display: block; */
         text-align: center;
     }
     .hero-pic {
         width: 18.5rem;
         height: 18.5rem;
-        margin: 0;
+/*         margin: 0; */
     }
     .hero-extras button {
         margin-right: 2rem;
@@ -200,7 +200,7 @@
     }
     .hero-details {
 /*         text-align: left; */
-        max-width: 55ch;
+        max-width: 75ch;
     }
     .hero-job {
 /*         text-align: left; */
